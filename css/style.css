@@ -1,6 +1,6 @@
 :root {
-  --wine: #6e261d;
-  --wine-dark: #371813;
+  --wine: #7c4d1b;
+  --wine-dark: #573713;
   --ink: #241713;
   --gold: #c7963e;
   --gold-light: #e4c680;
@@ -92,7 +92,7 @@ summary {
   overflow: hidden;
   color: var(--white);
   background:
-    linear-gradient(90deg, rgba(34, 15, 11, 0.97) 0%, rgba(45, 20, 14, 0.77) 40%, rgba(37, 16, 11, 0.16) 72%, rgba(31, 13, 10, 0.42) 100%),
+    linear-gradient(90deg, rgba(87, 55, 19, 0.97) 0%, rgba(87, 55, 19, 0.57) 40%, rgba(37, 16, 11, 0.16) 72%, rgba(31, 13, 10, 0.42) 100%),
     linear-gradient(0deg, rgba(31, 13, 9, 0.55), transparent 42%),
     url("../assets/images/hero.webp") center 47% / cover no-repeat;
 }
@@ -433,7 +433,7 @@ summary {
   padding: 120px 0 126px;
   color: var(--white);
   background:
-    linear-gradient(rgba(49, 24, 18, 0.96), rgba(49, 24, 18, 0.96)),
+    linear-gradient(rgba(87, 55, 19, 0.96), rgba(87, 55, 19, 0.96)),
     url("../assets/images/intro-small.webp") center / cover no-repeat;
 }
 
@@ -510,7 +510,7 @@ summary {
   align-items: center;
   color: var(--white);
   background:
-    linear-gradient(90deg, rgba(27, 14, 10, 0.03) 0%, rgba(27, 14, 10, 0.12) 47%, rgba(34, 16, 12, 0.9) 70%, rgba(34, 16, 12, 0.98) 100%),
+    linear-gradient(90deg, rgba(27, 14, 10, 0.03) 0%, rgba(27, 14, 10, 0.12) 47%, rgba(130, 104, 75, 0.9) 70%, rgb(87 55 19 / 98%) 100%),
     url("../assets/images/feature.webp") center 42% / cover no-repeat;
 }
 
@@ -631,7 +631,7 @@ summary {
   padding: 122px 0;
   color: var(--white);
   background:
-    linear-gradient(90deg, rgba(68, 23, 17, 0.97), rgba(110, 38, 29, 0.82)),
+    linear-gradient(90deg, rgb(89 57 22 / 97%), rgb(130 104 75 / 82%)),
     url("../assets/images/group.webp") center 52% / cover no-repeat;
 }
 
